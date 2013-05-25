@@ -1,0 +1,7 @@
+﻿http://msdn.microsoft.com/en-us/library/system.windows.application.shutdownmode(v=vs.100).aspx
+
+http://stackoverflow.com/questions/3546016/how-to-copy-data-to-clipboard-in-c-sharp
+
+
+How to publish:
+http://stackoverflow.com/a/7886874/741695
