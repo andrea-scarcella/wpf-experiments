@@ -44,7 +44,7 @@ namespace phonegap_create
         private void button2_Click(object sender, RoutedEventArgs e)
         {
             textBox4.Text = "create.bat ";
-            textBox4.Text ="\""+projectFolderPath.Text + "\"";
+            textBox4.Text +="\""+projectFolderPath.Text + "\"";
             textBox4.Text += " " + packageName.Text;
             textBox4.Text += " " + projectName.Text;
             textBox4.Focus();
