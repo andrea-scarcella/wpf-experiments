@@ -1,0 +1,28 @@
+﻿<Window x:Class="RoutedEventsTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525"
+        TextBoxBase.TextChanged="Window_TextChanged"
+        >
+    <Grid TextBoxBase.TextChanged="Grid_TextChanged"          >
+        <TextBox TextChanged="TextBox_TextChanged"       ></TextBox>
+        <RadioButton Content="Handle Textbox.TextChanged in TextBox" 
+                     Height="16" 
+                     HorizontalAlignment="Left" 
+                     Margin="256,100,0,0" 
+                     Name="radioButton1" 
+                     VerticalAlignment="Top" />
+        <RadioButton Content="Handle Textbox.TextChanged in Grid" 
+                     Height="16" 
+                     HorizontalAlignment="Left" 
+                    Margin="256,150,0,0" 
+                     Name="radioButton2" 
+                     VerticalAlignment="Top" />
+        <RadioButton Content="Handle Textbox.TextChanged in Window" 
+                     Height="16" 
+                     HorizontalAlignment="Left" 
+                     Margin="256,200,0,0" 
+                     Name="radioButton3" 
+                     VerticalAlignment="Top" />
+    </Grid>
+</Window>
