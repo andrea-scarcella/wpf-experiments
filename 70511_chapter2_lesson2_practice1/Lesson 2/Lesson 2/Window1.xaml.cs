@@ -22,6 +22,19 @@ namespace Lesson_2
         public Window1()
         {
             InitializeComponent();
+            CommandBinding myBinding = new CommandBinding();
+            myBinding.Command = CustomCommands.Launch;
+            myBinding.Executed += new ExecutedRoutedEventHandler(Launch_Handler);
+            myBinding.CanExecute += new CanExecuteRoutedEventHandler(CheckBox1_Handler);
+            this.CommandBindings.Add(myBinding);
+        }
+        private void Launch_Handler(object sender, ExecutedRoutedEventArgs e)
+        {
+            MessageBox.Show("Launch invoked!");
+        }
+        private void CheckBox1_Handler(object sender, CanExecuteRoutedEventArgs e)
+        {
+            e.CanExecute = (CheckBox1.IsChecked) ?? false;
         }
     }
 }

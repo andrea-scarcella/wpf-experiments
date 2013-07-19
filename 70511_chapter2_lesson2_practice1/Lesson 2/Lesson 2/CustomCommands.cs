@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Input;
 namespace Lesson_2
-{
+{//120
     public class CustomCommands
     {
         private static RoutedUICommand launch_command;
