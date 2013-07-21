@@ -68,10 +68,10 @@ namespace RunningButton
 
         }
 
-        private void Canvas_MouseDown(object sender, MouseButtonEventArgs e)
-        {
+        //private void Canvas_MouseDown(object sender, MouseButtonEventArgs e)
+        //{
 
-        }
+        //}
 
         //private void Canvas_MouseDown(object sender, MouseButtonEventArgs e)
         //{
